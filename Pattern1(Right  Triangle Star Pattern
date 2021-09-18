@@ -1,2 +1,30 @@
- /* Pattern 1 Right Triangle Star Pattern
- *     
+ //Pattern 1 Right Triangle Star Pattern
+ //  *
+//   **
+//   ***
+//   ****
+//   *****
+//Progarm Start from below
+
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+
+        // write ur code here
+        int i,j,row;
+        System.out.println("enter the no. of rows= ");
+        row=scn.nextInt();
+        for(i=0;i<row;i++){
+            for(j=0;j<=i;j++){
+              System.out.print("*");
+            }
+            System.out.println();
+        }
+
+    }
+    }
+    
+    
